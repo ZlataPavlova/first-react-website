@@ -1,0 +1,87 @@
+/* Стили страницы авторизации */
+.main{
+    display:block;
+    position: relative;
+    padding-top:15px;
+    justify-content: start;
+    background-color: #282c34;
+    min-height: 100vh;
+}
+/* Стили формы авторизации */
+.sign-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    position: relative;
+    margin: auto;
+    width: 300px;
+    /*min-height: 300px;*/
+    background-color: white;
+    align-items: stretch;
+    border: white;
+    border-radius: 10%;
+    padding:25px 15px;
+}
+
+.sign-in__form{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    min-height:120px;
+    background-color:white;
+    
+    
+}
+
+.sign-in__name{
+    border: 3px solid lightseagreen;
+    height:30px;
+    border-radius: 5px;
+        
+}
+
+.sign-in__title{
+    margin-top:0px
+}
+
+.sign-in__name:focus {
+	border: 3px solid rgb(19, 10, 139); 
+    outline:none;
+    border-radius: 5px;
+    
+}
+
+/*Стили кнопок в форме авторизации*/
+.button{
+    height:30px;
+    border-radius: 5px;
+    border:lightseagreen;
+}
+
+.button:focus {
+	border: 3px solid grey; 
+    outline:none;
+    border-radius: 5px;
+   
+}
+
+.sign-in__entrance-button{
+    background-color:  lightseagreen;
+    
+}
+
+.sign-in__entrance-button:hover{
+    background-color:rgb(25, 143, 137);
+}
+
+.sign-in__register-button {
+    background-color:lightgrey;
+    
+}
+
+.sign-in__register-button:hover{
+    background-color:grey;
+}
+
