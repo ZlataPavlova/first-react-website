@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+## Учебный проект 
+### Учебный проект разработки веб-приложения с применением библиотеки React
+#### Включает в себя загрузку данных со стороннего API и настройку формы регистрации пользователя.
 ## Available Scripts
 
 In the project directory, you can run:
